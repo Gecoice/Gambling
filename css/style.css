@@ -1,0 +1,156 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(../slike/back.png);
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+#container{
+	height:600px;
+	width:1000px;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	padding-top: 10px;
+	top:200px;
+	transform: translate(-50%, 0);
+}
+.playersIn{
+	width:200px;
+	height:300px ;
+	margin:0 auto;
+	background: rgb(33,33,33);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#Players{
+	display: flex;
+	margin:0 auto;
+	width:700px;
+}
+#Turns{
+	background: rgb(33,33,33);
+	height: 125px;
+	width: 170px;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin:0 auto;
+	margin-top: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#Dice{
+	background: rgb(33,33,33);
+	height: 125px;
+	width: 170px;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin:0 auto;
+	margin-top: 20px;
+		background:1px solid black ;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+}
+#TurnsDice{
+	width:500px;
+	height:200px;
+	margin:0 auto;
+	display: flex;
+}
+#top{
+	width:100%;
+	height:150px;
+}
+#button{
+	height:50px;
+	width:650px;
+	margin:0 auto;
+}
+h4{
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	font: 300;
+}
+input[tyle=text]{
+	margin-top: 50px;
+	height: 30px;
+	width: 170px;
+	border-radius: 2px;
+	border: none;
+	background: #f84854;
+	color: #fff;
+	text-align: center;
+}
+input[type=submit]{
+	border:0;
+	height:45px;
+	width:460px;
+	color:white;
+	font-size:40px;
+	outline: none;
+	background: rgb(248,80,92);
+	cursor:pointer;
+}
+input[type=submit]:hover{
+	background:rgb(33,33,33);
+	height:45px;
+	width:460px;
+	cursor:pointer;
+}
+input[type=text]{
+	margin-top: 20px;
+	border:0;
+	width:150px;
+	height:30px;
+	text-align: center;
+	background: rgb(248,80,92);
+}
+.players{
+	width: 200px;
+	height: 300px;
+	margin:0 auto;
+	color: #858585;
+	font: 300;
+	background-color: red;
+	float: left;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.first{
+	color:white;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-top: 50px;
+}
+.PlayerName{
+	color:white;
+}
+.Title{
+	font-size:120px;
+	line-height: 150px;
+	text-align: center;
+
+}
+select{
+	height: 30px;
+	width: 170px;
+	border: none;
+	background-color: #858585;
+	color: #fff;
+	border-radius: 2px;
+	text-align: center;
+}
+#res{
+	width:100%;
+	height:100%;
+}

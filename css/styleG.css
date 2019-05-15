@@ -1,0 +1,81 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image:url(../slike/back.png);
+	-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+#container{
+	height:800px;
+	width:1000px;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	padding-top: 10px;
+	top:100px;
+	transform: translate(-50%, 0);
+}
+#table{
+	width:1000px;
+	height:450px;
+	background-image:url(../slike/rul.png);
+}
+.playersIn{
+	width:200px;
+	height:320px ;
+	margin:0 auto;
+	background: rgb(33,33,33);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+#Players{
+		display: flex;
+		margin:0 auto;
+		width:700px;
+}
+#button{
+	width:200px;
+	height:30px;
+	margin:0 auto;
+	margin-top:2px;
+}
+.tip{
+	font-size:40px;
+	color:white;
+}
+.pointsP{
+	color:rgb(248,80,92);
+	font-size:30px;
+	padding-top:10px;
+}
+.pointsTurns{
+	color:white;
+	font-size:30px;
+}
+.button{
+	border:0;
+	height:30px;
+	width:200px;
+	color:white;
+	font-size:40px;
+	outline: none;
+	background: rgb(248,80,92);
+	cursor:pointer;
+}
+.button:hover{
+	background:rgb(33,33,33);
+	height:30px;
+	width:200px;
+	cursor:pointer;
+}
+.dWindow{
+	text-align: center;
+	display: flex;
+	padding:10px;
+	margin-left:30px;
+}
